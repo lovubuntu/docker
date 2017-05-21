@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM node:7.9-alpine
 
 RUN apk add --no-cache \
 		ca-certificates
